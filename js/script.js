@@ -44,3 +44,17 @@ new universalParallax().init({
 */
 
 AOS.init();
+
+/*
+    CONFIGURACIÓN PERSONALIZADA 
+*/
+
+//PARA AGREGAR O QUITAR EL BACKGROUND DEL MENU DE NAVEGACIÓN
+window.onscroll = function() {
+    const menu = document.getElementById('menuDeNavegacionPrincipal');
+    if(window.scrollY > 250){
+        menu.classList.add('bg-primary');
+    }else{
+        menu.classList.remove('bg-primary');
+    }
+};

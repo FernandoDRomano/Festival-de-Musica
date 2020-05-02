@@ -16,11 +16,66 @@
     <link rel="stylesheet" href="css/universal-parallax.css">
     <!-- CARGANDO ESTILOS PROPIOS -->
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Plantilla Bootstrap 4 - Librerias</title>
+    <title>Festival de Musica TUCSON</title>
   </head>
   
   <body>
-    
+
+    <!-- HEADER -->
+    <header id="menuDeNavegacionPrincipal" class="menu-navbar py-3">
+      <div class="container">
+        <div class="row align-items-center justify-content-md-between">
+          <div class="col-12 col-sm-6 col-md-8 col-lg-5 logo text-center text-md-left">
+            <a href="index.html">
+              <h1 class="h3 mb-0 font-weight-normal">FDM TUCSON <span class="font-weight-bold">2020</span></h1>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2 mt-sm-0">
+            <nav class="menu">
+              <ul class="list-unstyled mb-0 d-flex justify-content-between">
+                <li><a href="#lineUp">Line Up</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#boletos">Boletos</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- VIDEO E IMAGEN-->
+    <section id="video">
+      <div class="container-fluid px-0 container-video">
+        <div class="row no-gutters align-items-center justify-content-center">
+          <div class="col-12 containerMultimedia">
+              <video autoplay muted="muted" loop class="d-none d-lg-block">
+                <source src="video/concierto.mp4">
+              </video>
+              <img src="images/banda.jpg" alt="Imagen de la Banda" class="img-fluid d-block d-lg-none">
+          </div>
+          <div class="col-10 bloqueInformacion d-none d-sm-block">
+            <h2 class="titulo">Festival de Música <span>2020 TUCSON</span></h2>
+            <h3 class="subTitulo">23/24 Agosto Tucumán, Argentina</h3>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!-- ACERCA DE -->
+    <section id="acercaDe" class="py-6">
+      <div class="container mt-10">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <img src="images/imagen1.jpg" alt="Imagen de Guitarrista" class="img-fluid">
+          </div>
+          <div class="col-12 col-md-6">
+            <h2>Festival de Música <span class="text-secondary font-weight-bold">2020 TUCSON</span></h2>
+            <p class="text-secondary font-weight-bold">23/24 Agosto Guadalajara, México</p>
+            <p class="font-weight-light text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates reiciendis odit assumenda ut corrupti debitis. Distinctio amet, accusantium aut blanditiis corporis perspiciatis necessitatibus a!</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- CARGANDO JQUERY -->
     <script src="js/jquery-3.5.0.min.js"></script>
