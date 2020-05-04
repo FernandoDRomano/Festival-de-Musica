@@ -1,51 +1,4 @@
 /*
-    PARA CONFIGURAR EL SLIDER CON SWIPER
-*/
-
-let mySwiper = new Swiper ('.swiper-container', {
-    //PARA QUE SE AUTO INICIE
-    autoplay: {
-        delay: 2000,
-    },
-    //ACTIVAR LAS FLECHAS DE NAVEGACIÓN
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    //ACTIVANDO LA PAGINACION 
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-    //PARA CONTROLAR CON LOS BOTONES DEL TECLADO
-    keyboard: {
-        enabled: true,
-        onlyInViewport: true,
-    },
-    //LOOP INFINITO
-    loop: true,
-    //EFECTO AL PASAR EL SLIDE
-    effect: 'fade',
-    //TIEMPO ENTRE CAMBIO DE IMAGEN
-    speed: 500,
-    //PARA MOFICAR EL CURSOR: PARA QUE APARESCA LA MANITO
-    grabCursor: true,
-})
-
-/*
-    CONFIGURANDO UNIVERSAL PARALLAX   
-*/
-new universalParallax().init({
-	speed: 6.0
-});
-
-/*
-    CONFIGURANDO AOS (ANIMATE ON SCROLL LIBRARY
-*/
-
-AOS.init();
-
-/*
     CONFIGURACIÓN PERSONALIZADA 
 */
 
@@ -59,6 +12,7 @@ window.onscroll = function() {
     }
 };
 
+//PARA CALCULAR EL TIEMPO RESTANTE UTILIZANDO LA LIBRERIA COUNTDOWN
 function calcularTiempoRestante(mes, dia, hora, minuto, segundo){
     let ahora = new Date(); //Fecha Actual
     let concierto = new Date(2020, 7, 21); //Fecha del Evento
