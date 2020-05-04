@@ -1,41 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <!-- CARGANDO BOOTSTRAP 4 -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <!-- CARGANDO FONT AWESOME - PARA LOS ICONOS-->
-    <link rel="stylesheet" href="fonts/css/all.min.css">
+    <link rel="stylesheet" href="fonts/css/all.min.css" />
     <!-- CARGANDO SWIPER - PARA EL SLIDER DE IMAGENES QUE USA JAVASCRIPT PURO -->
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css" />
     <!-- CARGANDO AOS - PARA LAS ANIMACIONES QUE SE PUEDAN REALIZAR FINALIZADA LA PAGINA -->
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/aos.css" />
     <!-- CARGANDO UNIVERSAL PARALLAX - PARA LA ANIMACIÓN DE PARALLAX -->
-    <link rel="stylesheet" href="css/universal-parallax.css">
+    <link rel="stylesheet" href="css/universal-parallax.css" />
     <!-- CARGANDO ESTILOS PROPIOS -->
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css" />
     <title>Festival de Musica TUCSON</title>
   </head>
-  
-  <body>
 
+  <body>
     <!-- HEADER -->
     <header id="menuDeNavegacionPrincipal" class="menu-navbar py-3">
       <div class="container">
         <div class="row align-items-center justify-content-md-between">
-          <div class="col-12 col-sm-6 col-md-8 col-lg-5 logo text-center text-md-left">
+          <div
+            class="col-12 col-sm-5 col-lg-5 logo text-center text-md-left"
+          >
             <a href="index.html">
-              <h1 class="h3 mb-0 font-weight-normal">FDM TUCSON <span class="font-weight-bold">2020</span></h1>
+              <h1 class="h3 mb-0 font-weight-normal">
+                FDM TUCSON <span class="font-weight-bold">2020</span>
+              </h1>
             </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2 mt-sm-0">
-            <nav class="menu">
+          <div class="col-12 col-sm-7 col-md-5 col-lg-4 mt-2 mt-sm-0">
+            <nav id="menuNavegacion" class="menu">
               <ul class="list-unstyled mb-0 d-flex justify-content-between">
-                <li><a href="#lineUp">Line Up</a></li>
-                <li><a href="#galeria">Galería</a></li>
-                <li><a href="#boletos">Boletos</a></li>
+                <li class=""><a href="#lineUp">Line Up</a></li>
+                <li class=""><a href="#galeria">Galería</a></li>
+                <li class=""><a href="#boletos">Boletos</a></li>
               </ul>
             </nav>
           </div>
@@ -48,30 +54,404 @@
       <div class="container-fluid px-0 container-video">
         <div class="row no-gutters align-items-center justify-content-center">
           <div class="col-12 containerMultimedia">
-              <video autoplay muted="muted" loop class="d-none d-lg-block">
-                <source src="video/concierto.mp4">
-              </video>
-              <img src="images/banda.jpg" alt="Imagen de la Banda" class="img-fluid d-block d-lg-none">
+            <video autoplay muted="muted" loop class="d-none d-lg-block">
+              <source src="video/concierto.mp4" />
+            </video>
+            <img
+              src="images/banda.jpg"
+              alt="Imagen de la Banda"
+              class="img-fluid d-block d-lg-none"
+            />
           </div>
           <div class="col-10 bloqueInformacion d-none d-sm-block">
             <h2 class="titulo">Festival de Música <span>2020 TUCSON</span></h2>
-            <h3 class="subTitulo">23/24 Agosto Tucumán, Argentina</h3>
-          </div>  
+            <h3 class="subTitulo">21/22 Agosto Tucumán, Argentina</h3>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ACERCA DE -->
-    <section id="acercaDe" class="py-6">
-      <div class="container mt-10">
+    <section id="acercaDe" class="py-4">
+      <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-6">
-            <img src="images/imagen1.jpg" alt="Imagen de Guitarrista" class="img-fluid">
+            <img
+              src="images/imagen1.jpg"
+              alt="Imagen de Guitarrista"
+              class="img-fluid"
+            />
           </div>
           <div class="col-12 col-md-6">
-            <h2>Festival de Música <span class="text-secondary font-weight-bold">2020 TUCSON</span></h2>
-            <p class="text-secondary font-weight-bold">23/24 Agosto Guadalajara, México</p>
-            <p class="font-weight-light text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates reiciendis odit assumenda ut corrupti debitis. Distinctio amet, accusantium aut blanditiis corporis perspiciatis necessitatibus a!</p>
+            <h2 class="py-3 mb-0">
+              Festival de Música
+              <span class="text-secondary font-weight-bold">2020 TUCSON</span>
+            </h2>
+            <p class="text-secondary font-weight-bold">
+              23/24 Agosto Guadalajara, México
+            </p>
+            <p class="font-weight-light text-black-50">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              voluptates reiciendis odit assumenda ut corrupti debitis.
+              Distinctio amet, accusantium aut blanditiis corporis perspiciatis
+              necessitatibus a!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LINE UP -->
+    <section id="lineUp" class="bg-secondary pb-6">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-12 text-white">
+            <h2 class="font-weight-light h1 pt-5">LineUp Confirmado</h2>
+            <h3 class="text-uppercase py-4">Viernes 21</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6">
+            <div class="escenario1 bg-warning text-center">
+              <p class="pt-3">Escenario 1</p>
+              <img
+                src="images/guitarra.png"
+                alt="Imagen de guitarra"
+                class="my-3"
+                height="70px"
+              />
+              <ul class="list-unstyled">
+                <li><span>17:00</span> | Cantante 1</li>
+                <li><span>18:00</span> | Cantante 2</li>
+                <li><span>19:00</span> | Cantante 3</li>
+                <li><span>20:00</span> | Cantante 4</li>
+                <li><span>22:00</span> | Cantante 5</li>
+                <li><span>24:00</span> | Cantante 6</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="escenario2 bg-primary text-center">
+              <p class="pt-3">Escenario 2</p>
+              <img
+                src="images/dj.png"
+                alt="Imagen de dj"
+                class="my-3"
+                height="70px"
+              />
+              <ul class="list-unstyled">
+                <li><span>17:00</span> | Cantante 1</li>
+                <li><span>18:00</span> | Cantante 2</li>
+                <li><span>19:00</span> | Cantante 3</li>
+                <li><span>20:00</span> | Cantante 4</li>
+                <li><span>22:00</span> | Cantante 5</li>
+                <li><span>24:00</span> | Cantante 6</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row py-4 justify-content-center text-center">
+          <div class="col-12 text-white">
+            <h3 class="text-uppercase">Sabado 22</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6">
+            <div class="escenario2 bg-primary text-center">
+              <p class="pt-3">Escenario 1</p>
+              <img
+                src="images/guitarra.png"
+                alt="Imagen de guitarra"
+                class="my-3"
+                height="70px"
+              />
+              <ul class="list-unstyled">
+                <li><span>17:00</span> | Cantante 1</li>
+                <li><span>18:00</span> | Cantante 2</li>
+                <li><span>19:00</span> | Cantante 3</li>
+                <li><span>20:00</span> | Cantante 4</li>
+                <li><span>22:00</span> | Cantante 5</li>
+                <li><span>24:00</span> | Cantante 6</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="escenario1 bg-warning text-center">
+              <p class="pt-3">Escenario 2</p>
+              <img
+                src="images/dj.png"
+                alt="Imagen de dj"
+                class="my-3"
+                height="70px"
+              />
+              <ul class="list-unstyled">
+                <li><span>17:00</span> | Cantante 1</li>
+                <li><span>18:00</span> | Cantante 2</li>
+                <li><span>19:00</span> | Cantante 3</li>
+                <li><span>20:00</span> | Cantante 4</li>
+                <li><span>22:00</span> | Cantante 5</li>
+                <li><span>24:00</span> | Cantante 6</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-4">
+          <div class="col-12">
+            <h2 class="font-weight-normal">Galería</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal1">
+              <img src="images/thumbs/1.jpg" alt="Imagen 1" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/1.jpg" alt="Imagen Grande 1" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal2">
+              <img src="images/thumbs/2.jpg" alt="Imagen 2" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/2.jpg" alt="Imagen Grande 2" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal3">
+              <img src="images/thumbs/3.jpg" alt="Imagen 3" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/3.jpg" alt="Imagen Grande 3" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal4">
+              <img src="images/thumbs/4.jpg" alt="Imagen 4" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/4.jpg" alt="Imagen Grande 4" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal5">
+              <img src="images/thumbs/5.jpg" alt="Imagen 5" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/5.jpg" alt="Imagen Grande 5" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal6">
+              <img src="images/thumbs/6.jpg" alt="Imagen 6" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/6.jpg" alt="Imagen Grande 6" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal7">
+              <img src="images/thumbs/7.jpg" alt="Imagen 7" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/7.jpg" alt="Imagen Grande 7" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal8">
+              <img src="images/thumbs/8.jpg" alt="Imagen 8" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/8.jpg" alt="Imagen Grande 8" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal9">
+              <img src="images/thumbs/9.jpg" alt="Imagen 9" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/9.jpg" alt="Imagen Grande 9" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal10">
+              <img src="images/thumbs/10.jpg" alt="Imagen 10" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/10.jpg" alt="Imagen Grande 10" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal11">
+              <img src="images/thumbs/11.jpg" alt="Imagen 11" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/11.jpg" alt="Imagen Grande 11" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-3 mb-md-4">
+            <a href="#" data-toggle="modal" data-target="#modal12">
+              <img src="images/thumbs/12.jpg" alt="Imagen 12" class="img-fluid" />
+            </a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                  <img src="images/grande/12.jpg" alt="Imagen Grande 12" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TIEMPO FALTANTE -->
+    <section id="tiempoFaltante" class="bg-primary text-white">
+      <div class="container py-6">
+        <div class="row">
+          <div class="col-12 px-0 text-center">
+            <h2 class="text-uppercase titulo">Faltan</h2>
+            <h3 class="tiempo">
+              <span class="meses">00</span> meses - <br class="d-block d-sm-none">
+              <span class="dias">00</span> días - <br class="d-block d-sm-none">
+              <span class="horas">00</span> horas - <br class="d-block d-xl-none">
+              <span class="minutos">00</span> minutos - <br class="d-block d-sm-none">
+              <span class="segundos">00</span> segundos
+            </h3>
+            <h2 id="prueba"></h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOLETOS -->
+    <section id="boletos" class="bg-secondary pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="text-center text-white font-weight-normal pt-5 pb-4">Boletos</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center lista">
+
+          <div class="col-12 col-sm-11 col-md-6 mb-4 mb-md-0">
+            <h2 class="text-center mb-4 text-white h3 font-weight-normal">1 Día</h2>
+            <ul class="list-group text-center">
+              <li class="list-group-item bg-info text-white">
+                <p class="mb-0 text-uppercase">Incluye</p >
+              </li>
+              <li class="list-group-item">
+                <p class="mb-0">Acceso Viernes y Sábado</p>
+              </li>
+              <li class="list-group-item">
+                <p class="mb-0">Acceso a los 2 escenarios</p>
+              </li>
+              <li class="list-group-item bg-primary text-white">
+                <p class="mb-0 precio">$2000</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-sm-11 col-md-6 mb-4 mb-md-0">
+            <h2 class="text-center mb-4 text-white h3 font-weight-normal">2 Días</h2>
+            <ul class="list-group text-center">
+              <li class="list-group-item bg-info text-white">
+                <p class="mb-0 text-uppercase">Incluye</p >
+              </li>
+              <li class="list-group-item">
+                <p class="mb-0">Acceso Viernes y Sábado</p>
+              </li>
+              <li class="list-group-item">
+                <p class="mb-0">Acceso a los 2 escenarios</p>
+              </li>
+              <li class="list-group-item">
+                <p class="mb-0">Camisa del evento</p>
+              </li>
+              <li class="list-group-item bg-primary text-white">
+                <p class="mb-0 precio">$2000</p>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 text-center px-md-0">
+            <p class="text-white mt-4 lead">Ambos paquetes incluyen acceso a área de comida, bebidas y baños. Acceso desde las 14:00 horas.</p>
           </div>
         </div>
       </div>
@@ -89,6 +469,10 @@
     <script src="js/universal-parallax.min.js"></script>
     <!-- CARGANDO SWIPER - PARA EL SLIDER DE IMAGENES QUE USA JAVASCRIPT PURO -->
     <script src="js/swiper.min.js"></script>
+    <!-- CARGANDO COUNTDOWN - PARA REALIZAR LA CUENTA REGRESIVA EN EL TIEMPO -->
+    <script src="js/countdown.min.js"></script>
+    <!-- CARGANDO POLYFILLS - PARA REALIZAR EL SCROLLSPY DE MANERA NATIVA CON JS -->
+    <script src="js/gumshoe.polyfills.min.js"></script>
     <!-- CARGANDO JS PROPIOS - CONTIENE LA CONFIGURACIÓN INICIAL DE UNIVERSAL PARALLAX, AOS Y SWIPER -->
     <script src="js/script.js"></script>
   </body>

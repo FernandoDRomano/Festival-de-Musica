@@ -2,8 +2,8 @@
 /*
     1. CONFIGURACIÓN INICIAL
 */
-body {
-  height: 4000px;
+html {
+  scroll-behavior: smooth;
 }
 
 /*
@@ -23,18 +23,19 @@ body {
   color: #f8f8f8;
   text-decoration: none;
 }
+.menu-navbar #menuNavegacion li {
+  padding: 0.6rem 1rem;
+  border-radius: 0.15rem;
+}
+.menu-navbar #menuNavegacion .active {
+  background-color: #752F97;
+}
 
 /*
     3. ESTILOS A #video
 */
 #video {
-  /*
-      position: absolute;
-      top: 0;
-      right: 0;
-  */
   width: 100%;
-  height: 100vh;
   z-index: -1;
 }
 #video .container-video {
@@ -79,8 +80,69 @@ body {
 }
 
 /*
+    4. ESTILOS A #lineUp
+*/
+#lineUp .escenario1 li:nth-child(2n) {
+  background-color: #d1c201;
+}
+#lineUp .escenario2 li:nth-child(2n) {
+  background-color: #41a4a0;
+}
+#lineUp .escenario1 p,
+#lineUp .escenario2 p {
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+#lineUp .escenario1 ul,
+#lineUp .escenario2 ul {
+  text-align: left;
+}
+#lineUp .escenario1 ul li,
+#lineUp .escenario2 ul li {
+  padding: 0.9rem 1.2rem;
+  font-weight: lighter;
+  font-size: 1.1rem;
+}
+#lineUp .escenario1 ul li span,
+#lineUp .escenario2 ul li span {
+  font-weight: bold;
+}
+
+/*
+    5. ESTILOS A #tiempoFaltante
+*/
+#tiempoFaltante .titulo {
+  font-size: 3rem;
+}
+#tiempoFaltante .tiempo {
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+#tiempoFaltante .tiempo span {
+  font-weight: bold;
+}
+
+/*
+    4. ESTILOS A #boletos
+*/
+#boletos .lista {
+  font-size: 1.1rem;
+}
+#boletos .lista .precio {
+  font-size: 2rem;
+}
+
+/*
     X. MEDIA QUERYS
 */
+@media (min-width: 576px) {
+  #tiempoFaltante .titulo {
+    font-size: 3.5rem;
+  }
+  #tiempoFaltante .tiempo {
+    font-size: 2.5rem;
+  }
+}
 @media (min-width: 768px) {
   #video .bloqueInformacion .titulo {
     font-size: 2.5rem;
@@ -88,6 +150,13 @@ body {
   #video .bloqueInformacion .subTitulo {
     padding: 0.7rem;
     font-size: 1.3rem;
+  }
+
+  #tiempoFaltante .titulo {
+    font-size: 4rem;
+  }
+  #tiempoFaltante .tiempo {
+    font-size: 3rem;
   }
 }
 @media (min-width: 992px) {
@@ -106,6 +175,13 @@ body {
     margin-top: 1rem;
     font-size: 2.4rem;
   }
+
+  #tiempoFaltante .titulo {
+    font-size: 4.5rem;
+  }
+  #tiempoFaltante .tiempo {
+    font-size: 2.8rem;
+  }
 }
 @media (min-width: 1200px) {
   #video .bloqueInformacion .titulo {
@@ -113,6 +189,10 @@ body {
   }
   #video .bloqueInformacion .subTitulo {
     font-size: 2.7rem;
+  }
+
+  #tiempoFaltante .titulo {
+    font-size: 6rem;
   }
 }
 
